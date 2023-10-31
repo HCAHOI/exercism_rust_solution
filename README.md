@@ -2,7 +2,7 @@
 
 Recording my solutions of rust practices in exercism.org 😺😺😺
 
-Current Status(In progress/Completed/Total): 1/14/97
+Current Status(In progress/Completed/Total): 1/23/97
 
 Still in progress👷:
 
