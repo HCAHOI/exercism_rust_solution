@@ -18,7 +18,7 @@ Still in progress👷:
 Advantages:
 - Plenty of language tracks 🎯
 - Simple and handy CLI tool 🧰
-- Interestring Practices 🥰
+- Interesting practices 🥰
 - Entirely open source 💕
 - Surprisingly, 100% free 😮
 
