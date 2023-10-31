@@ -1,0 +1,6 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./leap/Cargo.toml",
+        "./armstrong-numbers/Cargo.toml"
+    ]
+}
