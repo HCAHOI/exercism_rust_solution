@@ -2,6 +2,7 @@
 
 [![Progress](https://img.shields.io/badge/Progress-31%25-brightgreen)]()
 
+
 Recording my solutions of rust practices in exercism.org 😺😺😺
 
 Current Status(In progress/Completed/Total): 1/30/97
