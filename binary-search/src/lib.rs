@@ -1,4 +1,7 @@
-pub fn find(array: &[i32], key: i32) -> Option<usize> {
+use std::cmp::Ordering;
+
+pub fn find<T: Ord, U: AsRef<[T]>>(array: U, key: T) -> Option<usize> {
+    let array = array.as_ref();
     if array.len() == 0 {
         return None;
     }
@@ -6,16 +9,17 @@ pub fn find(array: &[i32], key: i32) -> Option<usize> {
     let (mut l, mut r) = (0, array.len() - 1);
     while l < r {
         let mid = (l + r) >> 1;
-        if array[mid] < key {
-            l = mid + 1;
-        } else {
-            r = mid;
+        match array[mid].cmp(&key) {
+            Ordering::Less => {
+                l = mid + 1;
+            }
+            Ordering::Greater => {
+                r = mid;
+            }
+            Ordering::Equal => {
+                return Some(mid);
+            }
         }
     }
-
-    if array[l] == key {
-        Some(l)
-    } else {
-        None
-    }
+    None
 }
