@@ -4,7 +4,7 @@
 
 Recording my solutions of rust practices in exercism.org 😺😺😺
 
-**50% practices have been finished!**🥳🥳🥳
+**50% practices have been finished!** 🥳🥳🥳
 
 Current Status(In progress/Completed/Total): 3/49/97
 
