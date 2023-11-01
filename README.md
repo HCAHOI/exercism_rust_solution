@@ -1,15 +1,16 @@
 # exercism_rust_solution
 
-[![Progress](https://img.shields.io/badge/Progress-31%25-brightgreen)]()
+[![Progress](https://img.shields.io/badge/Progress-48%25-brightgreen)]()
 
 Recording my solutions of rust practices in exercism.org 😺😺😺
 
-Current Status(In progress/Completed/Total): 1/30/97
+Current Status(In progress/Completed/Total): 1/47/97
 
 Still in progress👷:
 
 1. parallel-letter-frequency
 2. poker
+3. fizzy
 
 ## What is Exercism
 
