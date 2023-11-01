@@ -16,7 +16,7 @@ Still in progress👷:
 
 ## What is Exercism
 
-[Exercism](https://exercism.org/tracks/rust) is a an online platform designed to help people learn and improve programming languages through practice and mentorship.
+[Exercism](https://exercism.org/tracks/rust) is a an online platform designed to help people learn and improve programming language skills through practice and mentorship.
 
 Advantages:
 - Plenty of language tracks 🎯
