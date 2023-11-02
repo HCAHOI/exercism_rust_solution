@@ -1,6 +1,6 @@
 [package]
 edition = "2021"
-name = "poker"
+name = "run-length-encoding"
 version = "1.1.0"
 
 [dependencies]
