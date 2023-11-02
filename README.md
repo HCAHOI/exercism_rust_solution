@@ -1,12 +1,12 @@
 # exercism_rust_solution
 
-[![Progress](https://img.shields.io/badge/Progress-50%25-brightgreen)]()
+[![Progress](https://img.shields.io/badge/Progress-54%25-brightgreen)]()
 
 Recording my solutions of rust practices in exercism.org 😺😺😺
 
-**50% practices have been finished!** 🥳🥳🥳
+**Over 50% practices have been finished!** 🥳🥳🥳
 
-Current Status(In progress/Completed/Total): 3/49/97
+Current Status(In progress/Completed/Total): 3/52/97
 
 Still in progress👷:
 
