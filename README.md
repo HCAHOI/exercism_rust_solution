@@ -6,13 +6,12 @@ Recording my solutions of rust practices in exercism.org 😺😺😺
 
 **Over 50% practices have been finished!** 🥳🥳🥳
 
-Current Status(In progress/Completed/Total): 3/60/97
+Current Status(In progress/Completed/Total): 2/60/97
 
 Still in progress👷:
 
 1. parallel-letter-frequency
-2. poker
-3. fizzy
+2. fizzy
 
 ## What is Exercism
 
