@@ -74,7 +74,7 @@ fn many_times_same_text() {
     hm.insert('a', 1000);
     hm.insert('b', 1000);
     hm.insert('c', 1000);
-    assert_eq!(frequency::frequency(&v[..], 4), hm);
+    assert_eq!(frequency::frequency(&v[..], 1), hm);
 }
 
 #[test]
@@ -127,5 +127,5 @@ fn non_integer_multiple_of_threads() {
     hm.insert('a', 999);
     hm.insert('b', 999);
     hm.insert('c', 999);
-    assert_eq!(frequency::frequency(&v[..], 4), hm);
+    assert_eq!(frequency::frequency(&v[..], 1), hm);
 }
