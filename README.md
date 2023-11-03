@@ -4,13 +4,13 @@
 
 Recording my solutions of rust practices in exercism.org 😺😺😺
 
-**Over 50% of practices have been** finished!** 🥳🥳🥳
+**Over 50% of practices have been finished!** 🥳🥳🥳
 
 Current Status(In progress/Completed/Total): 2/75/97
 
 Still in progress👷:
 
-- fizzy
+- fizzydd
 - bookstore
 
 ## What is Exercism
