@@ -1,38 +1,23 @@
-fn is_empty(bs: &Vec<i32>) -> bool {
-    bs.iter().all(|&i| i == 0)
-}
+use std::collections::HashMap;
 
-fn get_price(num: i32) -> u32 {
-    let discount = match num {
-        5 => 75,
-        4 => 80,
-        3 => 90,
-        (1..=2) => 100,
-        _ => panic!(),
-    };
-    8 * num as u32 * discount
-}
-
+const DISCOUNT: [u32; 5] = [0, 10, 30, 80, 125];
 pub fn lowest_price(books: &[u32]) -> u32 {
-    let mut bs = vec![0; 6];
-    for &book in books {
-        bs[book as usize] += 1;
+    let mut counter = HashMap::new();
+    for book in books {
+        *counter.entry(book).or_insert(0) += 1;
     }
 
-    println!("{:?}", bs);
-
-    let mut res = 0;
-    while !is_empty(&bs) {
-        let mut cnt = 0;
-        for i in 1..=5 {
-            if bs[i] > 0 {
-                bs[i] -= 1;
-                cnt += 1;
-            }
-        }
-        res += get_price(cnt);
-        cnt = 0;
+    let mut v: Vec<_> = counter.values().copied().collect();
+    v.sort_unstable_by(|a, b| b.cmp(a));
+    for i in 0..v.len().saturating_sub(1) {
+        v[i] -= v[i + 1];
     }
-
-    res
+    if v.len() >= 5 {
+        let m = v[2].min(v[4]);
+        v[2] -= m;
+        v[4] -= m;
+        v[3] += 2 * m;
+    }
+    let deduction: u32 = v.iter().zip(DISCOUNT).map(|(x, y)| x * y).sum();
+    (books.len() as u32 * 100 - deduction) * 8
 }
