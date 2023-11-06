@@ -1,0 +1,28 @@
+{
+  "authors": [
+    "ktomsic"
+  ],
+  "contributors": [
+    "coriolinus",
+    "cwhakes",
+    "efx",
+    "ErikSchierboom",
+    "ffflorian",
+    "petertseng"
+  ],
+  "files": {
+    "solution": [
+      "src/lib.rs",
+      "Cargo.toml"
+    ],
+    "test": [
+      "tests/affine-cipher.rs"
+    ],
+    "example": [
+      ".meta/example.rs"
+    ]
+  },
+  "blurb": "Create an implementation of the Affine cipher, an ancient encryption algorithm from the Middle East.",
+  "source": "Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Affine_cipher"
+}

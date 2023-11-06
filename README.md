@@ -1,17 +1,16 @@
 # exercism_rust_solution
 
-[![Progress](https://img.shields.io/badge/Progress-77%25-brightgreen)]()
+[![Progress](https://img.shields.io/badge/Progress-89%25-brightgreen)]()
 
 Recording my solutions of rust practices in exercism.org 😺😺😺
 
 **Over 50% of practices have been finished!** 🥳🥳🥳
 
-Current Status(In progress/Completed/Total): 2/75/97
+Current Status(In progress/Completed/Total): 1/86/97
 
 Still in progress👷:
 
 - fizzydd
-- bookstore
 
 ## What is Exercism
 
